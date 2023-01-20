@@ -62,7 +62,7 @@ section {
   width: 100%;
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 101% auto;
+  background-size: cover;
 
 }
 
@@ -74,17 +74,16 @@ section {
 
 }
 .transition{
-  background-image: url(/assets/water-transition.svg)
+  background-image: url(./assets/water-transition.svg)
 }
 .waterGradient{
   
-  background-image: url(/assets/deep-gradient.svg);
+  background-image: url(./assets/deep-gradient.svg);
 
 }
 .floor{
-  color: white;
 
-  background-image: url(/assets/floor.svg);
+  background-image: url(./assets/floor.svg);
 
 }
 
