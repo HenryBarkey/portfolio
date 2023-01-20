@@ -74,7 +74,7 @@ section {
 
 }
 .transition{
-  background-image: url(./assets/water-transition.svg)
+  background: linear-gradient(180deg, #004442, #001220)
 }
 .waterGradient{
   
