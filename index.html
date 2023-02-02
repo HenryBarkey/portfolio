@@ -15,8 +15,8 @@
     
 
     <section class="sky">
-        <div class="spacer lighthouse"></div>
-
+        
+      <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 750.83 88.33"><defs><style>.cls-1{fill:#231f20;}.cls-2{fill:#ddd;stroke:#231f20;stroke-miterlimit:10;stroke-width:14px;}</style></defs><path class="cls-1" d="M77.67,127.56l34.12-33.89a3.79,3.79,0,0,0-2.67-6.48H40.88a3.79,3.79,0,0,0-2.67,6.48l34.12,33.89A3.78,3.78,0,0,0,77.67,127.56Z" transform="translate(-37.09 -40.33)"/><line class="cls-2" x1="37.91" x2="37.91" y2="63.56"/></svg>
         <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" viewBox="0 0 960 540" id = 'spacer'>
 
             <style>
@@ -112,21 +112,68 @@
     <section class="water">
         
 
-        <h1>GRAPHIC DESIGN PORTFOLIO</h1>
-        <a href="https://henrybarkeybircann.myportfolio.com/game-design-portfolio">(click here for game design porfolio)</a>
+        <h1>UI/UX PORTFOLIO</h1>
+        <p>Below, you will find a small selection of my work, ranging from personal, school and work projects</p>
+        <div class="projects">
+          <div class="card card1">
+            <div class="card-details">
+              <div>
+                <a href="#" class="btn"></a>
 
-        <p>My final project for Graphic Design II, an analysis of related words between indo-european languages</p>
-        <img src="assets/HBBFinalGDII.png" alt="final project" class="center">
-        <p>A poster that discuses mental health data from College of the Atlantic</p>
+                <h2 class="project-title">MAINE CHALLENGE</h2>
+                <p>A short example of the motion graphics I created during my internship at Maine Challenge Productions</p>
+                <div class="modal">
+                  <div class="video-container"></div>
+                  <span class="close">
+                  <video class="mc" src="/assets/MaineChallengeExampleClip.mov" controls></video>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>  
+          <div class="card card2">
+            <div class="card-details">
+              <div>
+                <a href="/assets/HBBFinalGDII.pdf">
+                  <h2 class="project-title">GRAPHIC DESIGN FINAL</h2>
+                </a>
+               
+              </div>
+            </div>
+          </div>  
+          <div class="card card3">
+            <div class="card-details">
+              <div>
+                <a href="https://henrybarkeybircann.myportfolio.com/game-design-portfolio">
+                <h2 class="project-title">GAME DESIGN</h2>
+              </a>
+            </div>
+              
+            </div>
+          </div>                    
+        </div>
+        
+     
+
+        <script>
+          const btn = document.querySelector('.btn');
+          const videoContainer = document.querySelector('.video-container');
+
+          const close = document.querySelector('.close');
+
+          btn.addEventListener('click',()=>{
+            videoContainer.classList.add('show')
+          })
+          close.addEventListener('click',()=>{
+            videoContainer.classList.remove('show')
+          })
+
+        </script>
+
+        <p>Below is a poster that discusses mental health data from College of the Atlantic</p>
         <img src="assets/HBBmentalHealthPoster2.png" alt="final project" class="center">
-        <p>A poster raising awareness for income inequality</p>
-
-        <img src="assets/HBB_Mathforbetterworld.png" alt="final project" class="center">
-
-
-
     </section>
 
-  
+
 </body>
 </html>
