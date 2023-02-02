@@ -158,7 +158,7 @@ section {
 
 .card1{
   grid-area: top;
-  background-image: url('/assets/MaineChallenge_screen.jpg');
+  background-image: url(/assets/MaineChallenge_screen.jpg);
   background-size: 160%;
   transition: background-size 300ms;
   background-position: center;
@@ -167,7 +167,7 @@ section {
 
 .card2{
   grid-area: left;
-  background-image: url('/assets/GDIIFINAL_screen.jpg');
+  background-image: url(/assets/GDIIFINAL_screen.jpg);
   background-size: 160%;
   transition: background-size 300ms;
   background-position: center;
@@ -176,7 +176,7 @@ section {
 }
 .card3{
   grid-area: right;
-  background-image: url('/assets/GameDesign_Portfolio_screen.jpg');
+  background-image: url(/assets/GameDesign_Portfolio_screen.jpg);
   background-size: 160%;
   transition: background-size 300ms;
   background-position: center;
