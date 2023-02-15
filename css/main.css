@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&family=Raleway:wght@600&display=swap');:root {
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&family=Raleway:display=swap');:root {
   --primary-color: #3852d7;
 }
 
@@ -8,6 +8,7 @@ body {
   margin: 0;
   color: black;
   font-size: 32px;
+  font-weight: 100;
 }
 
 a {
@@ -25,25 +26,41 @@ section {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: space-between;
   margin: 0;
 }
 
-.land{
-  background: #6EAA00;
-}
+
 
 .water{
-  background: #001220;
+  background: linear-gradient(180deg, #001220 , #0d1a24);
   color: white;
   padding: 3em;
   overflow: auto;
   margin: 0;
-}
+  justify-content: space-between;
+  align-items: center;
 
-.waterDiv{
-  background: #004442;
+}
+.title {
+  font-weight: bold;
+  border: 2px solid white;
+  border-radius: 0px;
+  padding: 32px;
+  padding-left: 6em;
+  padding-right: 6em;
+  margin: 0;
+  border-style: double hidden double hidden;
   
 }
+.description {
+  font-weight: 100;
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 4em;
+
+}
+
 
 .sky{
   background: linear-gradient(180deg, #aaccff 60%, #c68960)
@@ -51,11 +68,10 @@ section {
 }
 
 .spacer{
-  aspect-ratio: 960/540;  
   background-repeat: no-repeat;
   background-position: center;
   background-size: 101% auto;
-  
+  height: 2em;
 
 }
 .spacer2{
@@ -77,11 +93,7 @@ section {
 .transition{
   background: linear-gradient(180deg, #004442 , #001220)
 }
-.waterGradient{
-  
-  background-image: url(./assets/deep-gradient.svg);
 
-}
 .floor{
 
   background-image: url(./assets/floor.svg);
@@ -157,6 +169,7 @@ section {
   transition: background-size 300ms;
   background-position: center;
   align-items: center;
+  justify-content: center;
 }
 
 .card2{
@@ -166,6 +179,8 @@ section {
   transition: background-size 300ms;
   background-position: center;
   align-items: center;
+  justify-content: center;
+  text-align: center;
 
 }
 .card3{
